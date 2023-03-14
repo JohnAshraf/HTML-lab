@@ -1,0 +1,137 @@
+nav {
+    /* border: 1px dashed white; */
+    background-color: black;
+    height: 65px;
+    box-sizing: content-box;
+
+}
+
+nav img {
+    /* border: 1px dashed cornflowerblue; */
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    margin: 0px;
+    height: 65px;
+    float: right;
+}
+
+nav ul {
+    display: inline;
+    text-align: center;
+    padding: 100px;
+    margin: 10px 10px;
+}
+
+nav ul li {
+    width: auto;
+    float: left;
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navlink:link {
+    color: white;
+    text-decoration: none;
+    padding: 20px 18px 18px;
+}
+
+.navlink:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+}
+
+.navlink:active {
+    color: white;
+    text-decoration: none;
+    width: 50%
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* .rightdiv {
+    float: right;
+    width: 50% ;
+    border: 1px dashed black;
+}
+
+.leftdiv {
+    border: 1px dashed black;
+    float: left;
+    width:50% ;
+} */
+#d1 {
+    width: 50%;
+    float: left;
+}
+
+#d2 {
+    width: 50%;
+    float: right;
+}
+
+#d3 {
+    width: 50%;
+    float: right;
+}
+
+#d4 {
+    width: 50%;
+    float: right;
+}
+
+#d5 {
+    width: 50%;
+    float: right;
+}
+
+#d6 {
+    width: 50%;
+    float: right;
+}
+
+#TOP {
+    color: black;
+}
+
+.cell {
+    border: 1px solid rgb(204, 243, 227);
+    background-color: rgb(204, 243, 227);
+    text-align: right;
+    font-size: 15px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.Registerationform {
+    border: 1px aquamarine solid;
+    background-color: rgb(204, 243, 227, 0.5);
+    margin-top: 10px;
+    position: absolute;
+    right: 500px;
+    box-sizing: border-box;
+}
+
+.tablehead {
+    border: 2px dotted rgba(67, 136, 107, 0.798);
+    background-color: rgb(204, 243, 227);
+    text-align: left;
+}

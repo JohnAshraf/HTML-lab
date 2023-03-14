@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="iti-logo.png">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="Home.html" class="navlink">Home</a></li>
+                    <li><a href="Roadmap.html" class="navlink">Road Map</a></li>
+                    <li><a href="Registration.html" class="navlink">Registeration Form</a></li>
+                    <li><a href="https://iti.gov.eg/iti/home" target="_blank" class="navlink">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="ITI_logo.png" alt="ITI_logo" id="itiphoto" />
+            </div>
+    </header>
+    <table class="Registerationform">
+
+        <form action="" method="post">
+            <thead>
+                <th colspan="2">
+                    <h1 style="text-align:left; color: rgb(67, 136, 100)"> Register - Create Account</h1>
+                    <h2 class="tablehead">Field marked <span style="color: red;">*</span> are compulsory fields</h2>
+                </th>
+            </thead>
+            </tr>
+            <tr>
+                <td class="cell"><span style="color: red;">*</span>Your Name </td>
+                <td><input type="text" name="yname" id="yname" size="50px" required></td>
+            </tr>
+            <tr>
+                <td class="cell"><span style="color: red;">*</span>E-mail ID </td>
+                <td><input type="email" name="email" id="email" size="50px" required></td>
+            </tr>
+            <tr>
+                <td class="cell">Alternative E-mail ID</td>
+                <td><input type="email" name="email" id="emailalt" size="50px"></td>
+            </tr>
+            <tr>
+                <td class="cell">Mobile Phone</td>
+                <td>
+                    <div style="text-align: left;">Country Code-City Code-Phone Number</div>
+                    <pre> <input type="text" name="country code" id="country" size="3px"> - <input type="text" name="city code" id="City" size="3x"> - <input type="number" name="phone" id="num" size="15px"></pre>
+                </td>
+            </tr>
+            <tr>
+                <td class="cell">Your Phone</td>
+                <td><input type="number" name="phone" id="phone" size="50px"></td>
+            </tr>
+            <tr>
+                <td class="cell"><span style="color: red;">*</span>Your Postal Adress </td>
+                <td><textarea name="tarea" id="adress" cols="46" rows="4" required></textarea></td>
+            </tr>
+            <tr>
+                <td class="cell"><span style="color: red;">*</span>Country </td>
+                <td>
+                    <div>
+                        <select style="width: 370px; cursor: pointer;text-align: center;" name="country" value="null" required>
+                            <option value="novalue">------------------------- Select One -------------------------</option>
+                            <option value="Alexandria">Alexandria</option>
+                            <option value="NewCapital">New capital</option>
+                            <option value="Cairo">Cairo</option>
+                            <option value="Mansoura">Mansoura</option>
+                            <option value="Sohag">Sohag</option>
+                            <option value="Banha">Banha</option>
+                            <option value="Aswan">Aswan</option>
+                            <option value="Luxor">Luxor</option>
+                            <option value="Assuit">Assuit</option>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td class="cell"><span style="color: red;">*</span>Your Password </td>
+                <td><input type="password" name="password" id="password" size="50px" required></td>
+            </tr>
+            <tr>
+                <td class="cell"><span style="color: red;">*</span>Re-Enter Password</td>
+                <td><input type="password" name="pass" id="pass2" size="50px" required></td>
+            </tr>
+            <tr>
+                <th colspan="2"> <input type="checkbox" id="Terms" style="cursor:pointer" required>
+                    <p style="display: inline; cursor:pointer;">I accept the</p> <a
+                        href="https://iti.gov.eg/iti/programs/details/ICC">Terms of use</a>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <button type="submit" style="cursor:pointer">Continue</button>
+                    <button type="reset" style="cursor:pointer">Reset</button>
+                </th>
+            </tr>
+        </form>
+
+    </table>
+    <footer>
+        <hr>
+        <div>
+            Copyrights 2021 by Noha Salah &#174; All Rights Resrved.
+        </div>
+    </footer>
+</body>
+
+</html>
