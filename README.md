@@ -8,3 +8,4 @@ In case you want to do any changes:
 1. Open the Folder
 2. Open the file you want to edit on
 And finally **DON'T FORGET** to push your work.
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
